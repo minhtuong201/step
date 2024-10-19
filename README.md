@@ -37,3 +37,6 @@ os.environ['OPENAI_API_KEY'] = "<-YOUR KEY HERE->"
 ```
 !python agents/step.py --task-num "29" --var-num 1 --env-step-limit 37 --num-episodes 5 --gpt-model "gpt-4o-mini" --summarize_end_of_episode 1 --device "cpu" --temperature 0.0 --use-last-k-memories 3  --output-path-prefix logs/testrun/ --simplifications-preset easy
 ```
+
+## Acknowledgement
+Parts of the code are modified from [CLIN](https://github.com/allenai/clin.git). We appreciate the authors for making CLIN open-sourced.
